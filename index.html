@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-row-padding img {margin-bottom: 10px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:60%;
+  background-image: url('Pic.jpg');
+  min-height: 100%;
+}
+/* .bgimg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:60%;
+  background-image: url('Old_Pic.jpg');
+  min-height: 100%;
+} */
+
+
+</style>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Projects</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-black w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Hemanth</b></h1>
+    <p>Web developer</p>
+    <img src="/Old_Pic.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/Old_Pic.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+  
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-black w3-padding-32" id="about">
+    <u><h2>About Me :</h2></u>
+    <hr class="w3-opacity">
+    <p>An enthusiastic engineering fresher who is Looking for a challenging role to utilize my technical and analytical skills for the growth and betterment of the organization as well as to develop my skills and knowledge.
+    </p>
+    <p><i class="fa fa-linkedin fa-fw w3-xxlarge w3-margin-right"> </i>https://www.linkedin.com/in/hemanthvr4623</p>
+    <p><i class="fa fa-github fa-fw w3-xxlarge w3-margin-right"> </i> https://github.com/VRH4623</p>
+
+    <br>
+
+    <u><h3>Education :</h3></u>
+    <p>► UG - Bannari Amman Institute of technology, Sathy and scored 87.7%.</p>
+    <p>► 12th - Green park international school(CBSE), Namakkal and scored 69.6%.</p>
+    <p>► 10th - Green park international school(CBSE), Namakkal and scored 83.00%. </p>
+    <br>
+
+    <u><h3>Internship :</h3></u>
+    <h4>INTERNSHIP ON ANDROID APP DEVELOPMENT :</h4>
+    <p>Internship training on INDUSTRAIL BASED EMBEDDED WITH ANDROID APPLICATION DEVELOPMENT USING IOT at NSIC, CHENNAI. I have learned about the fundamentals of creating app using Android studio which contains several tools to design an application.</p>
+    <p>CHENNAI, INDIA 
+    <p>May 2022 – May 2022</p>
+    <u><h3 class="w3-padding-16">My Skills :</h3></u>
+    <p class="w3-wide">► C</p>
+
+    <p class="w3-wide">► C++</p>
+    
+    <p class="w3-wide">► Java(Basics)</p>
+    <p class="w3-wide">► Python(Basics)</p>
+    <p class="w3-wide">► Html & CSS</p>
+    <p class="w3-wide">► ReactJS</p>
+    <p class="w3-wide">► Figma </p>
+  </div>
+  <hr>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <u><h2 class="w3-text-black">My Projects : </h2></u>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <h2>(i) Lyric finder using API :</h2>
+        <p>A web application used to fetch the lyrics of the requested song using API.</p>
+        <p> Duration : 15 Days| June 2022 - July 2022</p>
+        <p>Team Size : 2</p>
+        <p>Role : Developer and Team Member</p>
+        <p>Technology Used : Html,CSS</p>
+        <br>
+        <img src="P3.jpg" style="width:100%">
+        <br>
+        <br>
+        <h3>(ii) Face Recognition :</h3></p>
+        <p>To detect the face and recognise the respective face with the predefined persons dataset which is loaded.</p>
+        <p> Duration : 1 Month| Aug 2022 - Sep 2022</p>
+        <p>Team Size : 5</p>
+        <p>Role : Data Labeler and Team Member</p>
+        <p>Technology Used : Python</p>
+        <br>
+        <img src="P1.jpg" style="width:100%">
+        <br>
+        <br>
+        <h3>(iii) Currecny Converter :</h3>
+        <p>To convert any country's currency into any type of country's currency with thr extracted current price of the respective currency.</p>
+        <p> Duration : 1 Week| Oct 2022 - Oct 2022</p>
+        <p>Team Size : 1</p>
+        <p>Role : Leader</p>
+        <p>Technology Used : Html,CSS,Javascript</p>
+        <br></br>
+        <img src="P2.jpg" style="width:100%">
+        <hr>
+        <hr>
+
+
+      </div>
+
+      <div class="w3-half">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-black" id="contact" style="margin-bottom:64px">
+    <u><h2>Contact Me : </h2></u>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Namakkal, Tamil Nadu</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 8903235766 </p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> hemanth4623@gmail.com</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> hemanth.cs20@bitsathy.ac.in</p>
+
+
+    </div>
+    <br>
+    <br>   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
